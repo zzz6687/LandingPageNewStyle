@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.block-one {
+    background-color: #758db8;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 20px 170px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    margin: 25px 170px;
+    padding: 0;
+    min-width: 425.3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline;
+    margin: 7px;
+}
+
+a {
+    color: #CECDCD;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    margin-top: 10px;
+    color: #CECDCD;
+    font-size: 18px;
+}
+
+.headingImg {
+    height: 220px;
+    margin: 100px 170px 100px 10px;
+}
+
+button {
+    background-color: #85C1E9;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.text-container {
+    margin: 100px 0px 100px 170px;
+    width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-board .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.butterfly {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 25px 0 0;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 50px 0 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    width: 150px;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+
+.card .name {
+    width: 150px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card {
+    margin: 0 0 100px 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.quote-section .text {
+    font-size: 36px;
+    color: #1F2937;
+    font: italic normal 36px 'light italic';
+    text-align: center;
+}
+
+.quote-section .author {
+    font-size: 26px;
+    color: black;
+    text-align: end;
+    font-weight: 900;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.SignUpContainer {
+    background-color: #85C1E9;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 130px;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+.SignUpContainer .title {
+    font-size: 30px;
+}
+
+.SignUpContainer .text {
+    color: #E5E7EB;
+}
+
+.SignUpContainer button {
+    font-size: 18px;
+    font-weight: 400;
+    border: white 2px solid;
+    min-width: 120px;
+    min-height: 35px;
+    background-color: #85C1E9;
+}
+
+.footer {
+    background-color: #758db8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: #D6D6D6;
+    font-size: 14px;
+    padding: 15px 0 15px 0;
+}
